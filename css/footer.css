@@ -1,0 +1,20 @@
+#footer {background-color: #434455;
+    width: 1440px;
+    height: 70px;
+}
+
+.logo-footer {
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.slogan-footer {
+    line-height: 1.5;
+    color: #ffffff;
+}

@@ -1,0 +1,19 @@
+
+.logo {
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: #434455;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.nav-list {
+    font-weight: 500;
+}
