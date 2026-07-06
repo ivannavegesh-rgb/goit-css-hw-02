@@ -1,0 +1,16 @@
+.feature-list {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+text-align: left;
+}    
+
+.description {
+color: #434455;
+text-align: left;
+}
+
+.visually-hidden {
+    text-align: left;
+}

@@ -1,19 +1,60 @@
+/* .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+ .header-container {
+    max-width: 1158px;
+}
 
 .logo {
     font-family: 'raleway', sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     line-height: 1.33;
     letter-spacing: 0.03em;
-    color: #434455;
+    color: #2E2F42;
 }
 
 .web {
     color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.nav-list {
-    font-weight: 500;
+.site-nav .link {
+    font-weight: 500;    
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: #404BBF;
+}
+
+.site-nav .link:active {
+    color: #404BBF;
+}
+
+.contact-item > a {
+    font-style: normal;
+    font-decoration: none;
+    color: #434455;
+}
+.contact-item {
+    font-style: normal;
+    color: #434455;        
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+.contact-list .contact-item> a:hover, 
+.contact-list .contact-item > a:focus {
+    color: #404BBF;
 }

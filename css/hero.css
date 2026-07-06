@@ -1,19 +1,52 @@
 #hero { 
-    background-color: #434455;
-    width: 1440px;
-    height: 200px;
+    background-color: #2E2F42;
+    margin: 0 auto;
 }
 
-.hero-slogan {
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 1.07;
-   color: white;
-   text-align: center;
+.hero-container {
+    max-width: 1158px;
+    margin: 0 auto;
+    
+
 }
+
+.slogan-container {
+    max-width: 496px;
+    margin: 0 auto;
+    
+ }
+
+.hero-slogan {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+    
+
+
 .hero-button {
+    font-family: 'Roboto';
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: white;
-    font-size: 16px;
+    background: #4D5AE5;
+    cursor: pointer;
+    
 }
+.hero-button:hover,
+.hero-button:focus {
+   background-color: #404BBF;
+}
+
+.container {
+    
+ }
+

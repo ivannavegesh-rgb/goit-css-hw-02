@@ -1,6 +1,5 @@
 #footer {background-color: #434455;
-    width: 1440px;
-    height: 70px;
+    
 }
 
 .logo-footer {
@@ -14,7 +13,6 @@
     color: #ffffff;
 }
 
-.slogan-footer {
-    line-height: 1.5;
+.slogan-footer {    
     color: #ffffff;
 }

@@ -1,145 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-<link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-</head>
+  <body>
+    <header id="header"clas="header-container">
+        <div class="container">
+      <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
 
-<body>
-    <header id="header">
-        <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="site-nav">
+          <li><a class="link" href="#features">Features</a></li>
+          <li><a class="link" href="#team">Team</a></li>
+          <li><a class="link" href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
 
-        <address class="contacts">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-            <a href="tel:+110001111111">+11(000) 111-11-11</a>
-        </address>
-
+      <address class="contacts">
+        <ul class="contact-list">
+        <li class="contact-item">
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+        <li class="contact-item">
+        <a href="tel:+110001111111">+11(000) 111-11-11</a>
+      </li>
+        </ul>
+      </address>
+      </div>
     </header>
 
 
     <main>
-
-        <section id="hero">
-            <h1 class="hero-slogan">Effective Solutions for Your<br />Business</h1>
-            <button class="hero-button">Order Service</button>
-        </section>
-
-        <section id="features">
-            <h2>Our Features</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="team">
-            <h2>Our Team</h2>
-            <ul class="team-list">
-                <li>
-                    <img src="./images/team-1.jpg" alt="Mark Guerrero, a Product Designer Expert of the DevStudio Company" width="264" height="260" />
-                    <h3 class="team-member">Mark Guerrero</h3>
-                    <p class="expert">Product Designer</p>
-                </li>
-
-                <li>
-                    <img src="./images/team-2.jpg" alt="Tom Ford, a Frontend Developer Expert of the DevStudio Company" width="264" height="260" />
-                    <h3 class="team-member">Tom Ford</h3>
-                    <p class="expert">Frontend Developer</p>
-                </li>
-
-                <li>
-                    <img src="./images/team-3.jpg" alt="Camila Garcia, a Marketing Expert of the DevStudio Company" width="264" height="260" />
-                    <h3 class="team-member">Camila Garcia</h3>
-                    <p class="expert">Marketing</p>
-                </li>
-
-                <li>
-                    <img src="./images/team-4.jpg" alt="Daniel Wilson, a UI Designer Expert of the DevStudio Company" width="264" height="260" />
-                    <h3 class="team-member">Daniel Wilson</h3>
-                    <p class="expert">UI Designer</p>
-                </li>
-
-            </ul>
-        </section>
-
-        <section id="portfolio">
-            <h2>Our Portfolio</h2>
-            <ul>
-                <li>
-                    <img src="./images/portfolio-1.jpg" alt="Modern purple banking mobile app interface" width="360" height="300" />
-                    <h3>Banking App</h3>
-                    <p>App</p>
-                </li>
-
-                <li>
-                    <img src="./images/portfolio-2.jpg" alt="Person’s hand scanning QR code payment" width="360" height="300" />
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
-                </li>
-
-                <li>
-                    <img src="./images/portfolio-3.jpg" alt="Laptop and smartphone modern interface mockup" width="360" height="300" />
-                    <h3>Meditation App</h3>
-                    <p>App</p>
-                </li>
-
-                <li>
-                    <img src="./images/portfolio-4.jpg" alt="Driver holding steering wheel, navigation smartphone mounted" width="360" height="300" />
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
-                </li>
-
-                <li>
-                    <img src="./images/portfolio-5.jpg" alt="Modern purple mobile screensaver  with surrealism style" width="360" height="300" />
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
-                </li>
-
-                <li>
-                    <img src="./images/portfolio-6.jpg" alt="Smiling woman listening the lesson outdoors" width="360" height="300" />
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
-                </li>
-
-            </ul>
-        </section>
-    </main>
-    <footer id="footer">
-<a href="./index.html" class="logo-footer"><span class="web">Web</span>Studio</a>
+      <section id="hero">
+        <div class="hero-container">
         
-<p class="slogan-footer">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-</footer>
+        <div class="slogan-container">
+          <h1 class="hero-slogan">
+            Effective Solutions for&nbsp;Your Business
+          </h1>
+        </div>
 
-</body>
+        <button type="button" class="hero-button">Order Service</button>   
+
+        </div>
+      </section>
+
+
+
+
+      <section id="features" class="our-features">
+        <div class="container">
+        <h2  class="visually-hidden">Our Features</h2>
+
+        <ul class="features-list">
+          <li>
+            <h3 class="feature-list">Strategy</h3>
+            <p class="description">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 class="feature-list">Punctuality</h3>
+            <p class="description">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li>
+            <h3 class="feature-list">Diligence</h3>
+            <p class="description">
+              Research and confirm brands with the strongest digital growth
+              opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="feature-list">Technologies</h3>
+            <p class="description">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+        </div>
+      </section>
+
+      <section id="team" class="all-the-team">
+        <div class="container">
+        <h2>Our Team</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <img
+              src="./images/team-1.jpg"
+              alt="Mark Guerrero, a Product Designer Expert of the DevStudio Company"
+              width="264"
+              height="260"
+            />
+            <h3 class="team-member">Mark Guerrero</h3>
+            <p class="expert">Product Designer</p>
+          </li>
+
+          <li class="team-item">
+            <img
+              src="./images/team-2.jpg"
+              alt="Tom Ford, a Frontend Developer Expert of the DevStudio Company"
+              width="264"
+              height="260"
+            />
+            <h3 class="team-member">Tom Ford</h3>
+            <p class="expert">Frontend Developer</p>
+          </li>
+
+          <li class="team-item">
+            <img
+              src="./images/team-3.jpg"
+              alt="Camila Garcia, a Marketing Expert of the DevStudio Company"
+              width="264"
+              height="260"
+            />
+            <h3 class="team-member">Camila Garcia</h3>
+            <p class="expert">Marketing</p>
+          </li>
+
+          <li class="team-item">
+            <img
+              src="./images/team-4.jpg"
+              alt="Daniel Wilson, a UI Designer Expert of the DevStudio Company"
+              width="264"
+              height="260"
+            />
+            <h3 class="team-member">Daniel Wilson</h3>
+            <p class="expert">UI Designer</p>
+          </li>
+        </ul>
+        </div>
+    </section>
+
+      <section id="portfolio" class="all-the-portfolio">
+        <div class="container">
+        <h2>Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li>
+            <img
+              src="./images/portfolio-1.jpg"
+              alt="Modern purple banking mobile app interface"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p class="portfolio-description">App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/portfolio-2.jpg"
+              alt="Person’s hand scanning QR code payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p class="portfolio-description">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/portfolio-3.jpg"
+              alt="Laptop and smartphone modern interface mockup"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p class="portfolio-description">App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/portfolio-4.jpg"
+              alt="Driver holding steering wheel, navigation smartphone mounted"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p class="portfolio-description">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/portfolio-5.jpg"
+              alt="Modern purple mobile screensaver  with surrealism style"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p class="portfolio-description">Design</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/portfolio-6.jpg"
+              alt="Smiling woman listening the lesson outdoors"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p class="portfolio-description">Marketing</p>
+          </li>
+        </ul>
+        </div>
+      </section>
+    </main>
+
+
+    <footer id="footer">
+        <div class="container">
+      <a href="./index.html" class="logo-footer"
+        ><span class="web">Web</span>Studio</a>
+
+      <p class="slogan-footer">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+      </div>
+    </footer>
+  </body>
 </html>
